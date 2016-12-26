@@ -19,4 +19,8 @@ Then, run:
 
 ## Getting code ##
 
-To get code, just fetch this repository
+To get code, just clone this repository
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
