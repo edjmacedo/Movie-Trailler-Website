@@ -5,14 +5,14 @@ Created on Mon Dec 26 15:36:10 2016
 @author: edvan.macedo.jr@gmail.com
 """
 class MovieData():
-     """ This class handle movie's data information """   
+    """ This class handle movie's data information """   
     def __init__(self):
         self.get_movie_data()
         
     def get_movie_data(self):
-         VALID_RATINGS = ["G", "PG", "PG-13", "R"]
+        VALID_RATINGS = ["G", "PG", "PG-13", "R"]
     
-         return (["2h 34 min", VALID_RATINGS[3], "Crime, Drama","1994",
+        return (["2h 34 min", VALID_RATINGS[3], "Crime, Drama","1994",
                    "Pulp Fiction", "The lives of two mob hit men, a boxer,"
                    "a gangster wife, and a pair of diner bandits intertwine in"
                    "four tales of violence and redemption. ",
