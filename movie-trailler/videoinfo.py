@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Dec 26 10:32:52 2016
+
+@author: edvan.macedo.jr@gmail.com
+"""
+
 class VideoInfo():
 
     """ This class provides a way to store comum information about video
