@@ -20,7 +20,8 @@ class Movie(videoinfo.VideoInfo):
         poster_image(str): This should provide the URL image for movie poster
         trailer_youtube(str): This should provide the URL for movie trailer
     """
-    def __init__(self, duration, ratings, genre, date, movie_title, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self, duration, ratings, genre, date, movie_title,
+                 movie_storyline, poster_image, trailer_youtube):
         videoinfo.VideoInfo.__init__(self, duration, ratings, genre, date)        
         self.movie_title = movie_title
         self.movie_storyline = movie_storyline
