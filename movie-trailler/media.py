@@ -5,9 +5,9 @@ Created on Mon Dec 26 10:32:52 2016
 @author: edvan.macedo.jr@gmail.com
 """
 
-import videoinfo
+import video_info
 
-class Movie(videoinfo.VideoInfo):
+class Movie(video_info.VideoInfo):
     
     """ This class provides the data base for movie
     Attributes:
@@ -22,7 +22,7 @@ class Movie(videoinfo.VideoInfo):
     """
     def __init__(self, duration, ratings, genre, date, movie_title,
                  movie_storyline, poster_image, trailer_youtube):
-        videoinfo.VideoInfo.__init__(self, duration, ratings, genre, date)        
+        video_info.VideoInfo.__init__(self, duration, ratings, genre, date)        
         self.movie_title = movie_title
         self.movie_storyline = movie_storyline
         self.poster_image = poster_image
