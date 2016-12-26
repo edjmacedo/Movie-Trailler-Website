@@ -15,7 +15,7 @@ class VideoInfo():
         date(str): This should inform the date of release of media
     """
     
-    VALID_RATINGS = ["G",  "PG",  "PG-13",  "R"] #predefined ratings
+    VALID_RATINGS = ["G",  "PG",  "PG-13",  "R", "TV-MA"] #predefined ratings
 
     def __init__(self, duration, ratings, genre, date):        
         self.duration = duration
